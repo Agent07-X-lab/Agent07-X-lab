@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="50" viewBox="0 0 480 50" fill="none">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          font-family: 'Consolas', 'Courier New', monospace;
+          font-size: 20px;
+          color: #39FF14; /* Neon Matrix Green */
+          background: #0d1117;
+          display: flex;
+          align-items: center;
+          height: 48px;
+          padding-left: 15px;
+          border-radius: 6px;
+          border: 1px solid #30363d;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .prefix {
+          color: #58a6ff; /* Hacker Blue */
+          font-weight: bold;
+          margin-right: 8px;
+        }
+        .cursor {
+          display: inline-block;
+          width: 8px;
+          height: 18px;
+          background-color: #39FF14;
+          margin-left: 4px;
+          animation: blink 0.8s infinite;
+        }
+        .text {
+          font-weight: bold;
+        }
+        @keyframes blink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0; }
+        }
+        .text::after {
+          content: "";
+          animation: typing 16s infinite;
+        }
+        @keyframes typing {
+          /* Software Engineer (0% - 25%) */
+          0% { content: ""; }
+          1% { content: "S"; }
+          2% { content: "So"; }
+          3% { content: "Sof"; }
+          4% { content: "Soft"; }
+          5% { content: "Softw"; }
+          6% { content: "Softwa"; }
+          7% { content: "Softwar"; }
+          8% { content: "Software"; }
+          9% { content: "Software "; }
+          10% { content: "Software E"; }
+          11% { content: "Software En"; }
+          12% { content: "Software Eng"; }
+          13% { content: "Software Engi"; }
+          14% { content: "Software Engin"; }
+          15% { content: "Software Engine"; }
+          16% { content: "Software Enginee"; }
+          17% { content: "Software Engineer"; }
+          21% { content: "Software Engineer"; } /* Hold */
+          22% { content: "Software Engine"; }
+          23% { content: "Software Eng"; }
+          24% { content: "Software "; }
+          25% { content: ""; }
+          
+          /* AI Developer (25% - 50%) */
+          26% { content: "A"; }
+          27% { content: "AI"; }
+          28% { content: "AI "; }
+          29% { content: "AI D"; }
+          30% { content: "AI De"; }
+          31% { content: "AI Dev"; }
+          32% { content: "AI Deve"; }
+          33% { content: "AI Devel"; }
+          34% { content: "AI Develo"; }
+          35% { content: "AI Develop"; }
+          36% { content: "AI Develope"; }
+          37% { content: "AI Developer"; }
+          41% { content: "AI Developer"; } /* Hold */
+          42% { content: "AI Develo"; }
+          43% { content: "AI Dev"; }
+          44% { content: "AI "; }
+          45% { content: ""; }
+          
+          /* ML Enthusiast (50% - 75%) */
+          46% { content: "M"; }
+          47% { content: "ML"; }
+          48% { content: "ML "; }
+          49% { content: "ML E"; }
+          50% { content: "ML En"; }
+          51% { content: "ML Ent"; }
+          52% { content: "ML Enthu"; }
+          53% { content: "ML Enthus"; }
+          54% { content: "ML Enthusi"; }
+          55% { content: "ML Enthusia"; }
+          56% { content: "ML Enthusias"; }
+          57% { content: "ML Enthusiast"; }
+          61% { content: "ML Enthusiast"; } /* Hold */
+          62% { content: "ML Enthusias"; }
+          63% { content: "ML Enthu"; }
+          64% { content: "ML "; }
+          65% { content: ""; }
+          
+          /* Python Programmer (75% - 100%) */
+          71% { content: "P"; }
+          72% { content: "Py"; }
+          73% { content: "Pyt"; }
+          74% { content: "Pyth"; }
+          75% { content: "Pytho"; }
+          76% { content: "Python"; }
+          77% { content: "Python "; }
+          78% { content: "Python P"; }
+          79% { content: "Python Pr"; }
+          80% { content: "Python Pro"; }
+          81% { content: "Python Prog"; }
+          82% { content: "Python Progr"; }
+          83% { content: "Python Progra"; }
+          84% { content: "Python Program"; }
+          85% { content: "Python Programm"; }
+          86% { content: "Python Programme"; }
+          87% { content: "Python Programmer"; }
+          91% { content: "Python Programmer"; } /* Hold */
+          92% { content: "Python Programm"; }
+          93% { content: "Python Progr"; }
+          94% { content: "Python "; }
+          95% { content: "Py"; }
+          100% { content: ""; }
+        }
+      </style>
+      <div class="container">
+        <span class="prefix">❯ Typing:</span>
+        <span class="text"></span>
+        <span class="cursor"></span>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
